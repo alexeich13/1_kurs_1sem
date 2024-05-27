@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+		input {
+     background-color: rgb(95, 42, 165);
+     border-radius: 10px;
+     height: 30px;
+     color:rgb(0, 234, 255);
+   }
+	</style>
+<script type='text/javascript'>
+function fun1() {
+ alert('Вас приветствует учебный центр');
+}
+function fun2() {
+ let x=prompt('Введите имя:', 'Имя');
+}
+function fun3(){
+	alert('Добро пожаловать на наши курсы, '+ x);
+}
+function fun4(){
+	if(confirm('Хотите стать Web-дизайнером?')){
+       alert('Учтите стили CSS и JavaScript!');
+}
+else {
+	alert('Упускаете время!');
+}
+}
+
+</script>
+</head>
+<body>
+<input type='button' value='Окно начала' onclick='fun1()' />
+<input type='button' value='Окно идентификации' onclick='fun2()' />
+<input type='button' value='Окно приветствия' onclick='fun3()' />
+<input type='button' value='Окно вопроса' onclick='fun4()' />
+
+</body>
+</html>

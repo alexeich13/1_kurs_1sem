@@ -1,0 +1,105 @@
+body{
+	background: #735454;
+}
+.nav{
+width: 100%;
+height: 30%;
+}
+li{
+border-bottom: 2px solid #d9635d;
+display: inline-block;
+padding: 10px;
+transition: .3s linear;
+}
+li:hover{
+	background-color: #d9635d;
+}
+ul{
+width: 500px;
+margin: 10px auto;
+}
+a{
+text-decoration: none;
+color: whitesmoke;
+font-family: 'Colibri';
+font-size: 20px;
+}
+.h_photo{
+	margin: 0;
+}
+.f_head{
+	float: left;
+	font-size: 70px;
+	color:whitesmoke;
+	margin-left: 300px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-family: "Colibri";
+}
+.sec_head{
+	text-align: center;
+	font-size: 40px;
+	color: whitesmoke;
+	font-family: "Colibri";
+}
+.first{
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.second{
+	float: right;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+span{
+	font-size: 20px;
+	color: #b3b3b3;
+}
+p{
+	margin-top: 200px;
+}
+.silka1{
+	position: relative;
+	right: 400px;
+	top: 80px;
+	color: #b3b3b3;
+}
+.silka1:hover{
+	color: #d9635d;
+}
+.silka2{
+	position: relative;
+	right: 100px;
+	top: 80px;
+	color: #b3b3b3;
+}
+.silka2:hover{
+	color: #d9635d;
+}
+.silka3{
+	position: relative;
+	left: 50px;
+	top: 80px;
+	color: #b3b3b3;
+}
+.silka3:hover{
+	color: #d9635d;
+}
+.silka4{
+	position: relative;
+	left: 400px;
+	top: 80px;
+	color:#b3b3b3;
+}
+.silka4:hover{
+	color: #d9635d;
+}
+#clock{
+  float: right;
+  color: whitesmoke;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  }

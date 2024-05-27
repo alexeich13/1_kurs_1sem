@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Porche</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<script src="clock.js"></script>
+<a href="Project.html" style="float:left; margin-top:2px; margin-left:30px;"><img src="https://brandwiki.ru/up/brands/porsche.jpg" width="100px" height="100px"></a>
+<div id="clock"></div>	
+<div class="nav">
+<ul>
+<li><a href="Project.html">Главная</a></li>
+<li><a href="auto.html">Авто</a></li>
+<li><a href="service.html">Сервис</a></li>
+<li><a href="contacts.html">Контакты</a></li>
+</ul>
+</div>
+<img class="h_photo" src="first.jpg" width="80%" height="650px" id="image" onclick="imgsrc()">
+<h1 class="f_head">О компании</h1>
+<p>
+	<img class="first" src="https://files.porsche.com/filestore/image/multimedia/none/ww-rangeshotteaser-front/preview/125d2c50-d2e4-11e9-80c5-005056bbdc38;sG;twebp/porsche-preview.webp" width="400px" height="300px" id="image_1">
+	<h2 class="sec_head">Стратегия</h2>
+	<span>Основным направлением Стратегии 2025 является формирование будущего спортивных автомобилей. Ядром стратегии является модельный ряд компании. Спорткары будущего органично сочетают в себе традиции и ценности бренда Porsche с инновационными технологиями, полностью соответствуя концепции устойчивого развития. В достижении этого важную роль сыграют такие факторы, как электромобильность, цифровые технологии и возможности связи.</span>
+	<a href="https://www.porsche.com/central-eastern-europe/ru/_belarus_/aboutporsche/overview/strategy2025/" class="silka1"><ins>Узнать больше</ins></a>
+</p>
+<p>
+	<img class="second" src="https://files.porsche.com/filestore/image/multimedia/none/about-porsche-overview-locations-zuffenhausen/preview/8cade507-a276-11e5-a2f2-0019999cd470;sG;twebp/porsche-preview.webp" width="400px" height="300px" id="image_2">
+	<h2 class="sec_head">Цуффенхаузен – сердце и дом</h2>
+	<span>Сердце Porche по-прежнему бьется в Цуффенхаузене. Все началось именно здесь.Именно в этом городе было запущено массовое производство первой серийной модели Porche. И именно здесь сегодня производятся наши спорткары и двигатели. Особенностью завода является то, что даже гоночные версии автомобилей производятся вместе с серийными на одном конвейере - это не делает ни один другой автопроизводитель.</span>
+	<a href="https://www.porsche.com/central-eastern-europe/ru/_belarus_/aboutporsche/overview/strategy2025/" class="silka2"><ins>Узнать больше</ins></a>
+</p>
+<p>
+	<img class="first" src="https://files.porsche.com/filestore/image/multimedia/none/aboutporsche-overview-compliance-teaser/preview/e3072f61-8c80-11e6-9f1b-0019999cd470;sG;twebp/porsche-preview.webp" width="400px" height="300px" id="image_3">
+	<h2 class="sec_head">Комплаенс</h2>
+	<span>Porsche - самый успешный производитель эксклюзивных спортивных автомобилей, обладающий безупречной репутацией. В основе успеха компании лежит притягательная сила её автомобилей, и, что не в меньшей степени важно, уникальная корпоративная культура, главные принципы которой - честность и комплаенс. И такой она и должна оставаться. Все члены совета директоров, руководители, менеджеры и сотрудники каждый день вносят в неё свой вклад в соответствии с девизом: «Спортивный и честный – типичный Porsche».</span>
+	<a href="https://www.porsche.com/central-eastern-europe/ru/_belarus_/aboutporsche/overview/strategy2025/" class="silka3"><ins>Узнать больше</ins></a>
+</p>
+<p>
+	<img class="second" src="https://files.porsche.com/filestore/image/multimedia/none/about-porsche-overview-locations-weissach/preview/fb0f7606-a276-11e5-a2f2-0019999cd470;sG;twebp/porsche-preview.webp" width="400px" height="300px" id="image_4">
+	<h2 class="sec_head">Вайсах - совершенно секретно</h2>
+	<span>Научно-технический центр Porche находится в Вайсахе с 1971 года. в центре работают около 6500 человек. Центр объединяет под своей крышей конструкторское бюро, испытательские стенды, мастерсике и подразделение гоночных автомобилей.</span>
+	<a href="https://www.porsche.com/central-eastern-europe/ru/_belarus_/aboutporsche/overview/strategy2025/" class="silka4"><ins>Узнать больше</ins></a>
+</p>
+<script type="text/javascript">
+	var i=0;
+    var image=document.getElementById("image");
+    var imgs=new Array('first.jpg','second.jpg','frth.jfif','forth.jpeg','fifth.jpg');
+        function imgsrc() {
+            i++;
+            i%=imgs.length;
+            image.src = imgs[i];
+        }
+</script>
+<script type="text/javascript"  src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+</script>
+<script type="text/javascript">
+$("#image_1").mouseover(function(){
+        $(this).css('width',"512px");
+        $(this).css('height',"450px");
+});    
+$("#image_1").mouseout(function(){
+        $(this).css('width',"400px");
+         $(this).css('height',"300px");
+});   
+$("#image_2").mouseover(function(){
+        $(this).css('width',"512px");
+         $(this).css('height',"450px");
+});    
+$("#image_2").mouseout(function(){
+        $(this).css('width',"400px");
+         $(this).css('height',"300px");
+});   
+$("#image_3").mouseover(function(){
+        $(this).css('width',"512px");
+         $(this).css('height',"450px");
+});    
+$("#image_3").mouseout(function(){
+        $(this).css('width',"400px");
+         $(this).css('height',"300px");
+});   
+$("#image_4").mouseover(function(){
+        $(this).css('width',"512px");
+         $(this).css('height',"450px");
+});    
+$("#image_4").mouseout(function(){
+        $(this).css('width',"400px");
+         $(this).css('height',"300px");
+});   
+</script>	
+</body>
+</html>

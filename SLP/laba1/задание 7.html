@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+		input {
+     background-color: rgb(95, 42, 165);
+     border-radius: 10px;
+     height: 30px;
+     color:rgb(0, 234, 255);
+   }
+	</style>
+<script type='text/javascript'>
+function error(){
+	try{
+		let HELLO;
+		alert(HELLO);
+	} catch(e) {
+		alert('Ошибка ' + e.name + ":" + e.message + "/n" + e.stack);
+	}
+}
+</script>
+<body>
+	<input type='button' value='Ошибка' onclick='error()' />
+</body>
+</html>

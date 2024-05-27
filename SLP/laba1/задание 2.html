@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+		input {
+     background-color: rgb(95, 42, 165);
+     border-radius: 10px;
+     height: 30px;
+     color:rgb(0, 234, 255);
+   }
+	</style>
+<script type='text/javascript'>
+
+	function sum1() {
+		let result;
+		let y=10;
+		let x=5
+		let result=y+x;
+		alert(result);
+	}
+	function sum2() {
+		let result;
+		let y="10";
+		let x="5";
+		let result=y+x;
+		alert(result);
+	}
+	function sum3() {
+		let result;
+		let y=22;
+		let x="5";
+		let result=y+x;
+		alert(result);
+	}
+	function sum4() {
+		let result;
+		let y="22";
+		let x=5;
+		let result=y+x;
+		alert(result);
+	}
+	function conclusion() {
+		alert("Результатом сложения строки и числа всегда будет строка")
+	}
+	</script>
+</head>
+<body>
+	<input type='button' value='Ответ 1' onclick='sum1()' />
+	<input type='button' value='Ответ 2' onclick='sum2()' />
+	<input type='button' value='Ответ 3' onclick='sum3()' />
+	<input type='button' value='Ответ 4' onclick='sum4()' />
+	<input type='button' value='Вывод' onclick='conclusion()' />
+</body>
+</html>

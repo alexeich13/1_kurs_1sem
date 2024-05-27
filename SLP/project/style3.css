@@ -1,0 +1,64 @@
+body{
+	background: #735454;
+}
+.nav{
+width: 100%;
+height: 30%;
+}
+li{
+border-bottom: 2px solid #d9635d;
+display: inline-block;
+padding: 10px;
+transition: .3s linear;
+}
+li:hover{
+	background-color: #d9635d;
+}
+ul{
+width: 500px;
+margin: 0px auto;
+}
+a{
+text-decoration: none;
+color: whitesmoke;
+font-family: 'Colibri';
+font-size: 20px;
+}
+form{
+	width: 400px;
+}
+fieldset{
+	background: #52636e;
+}
+legend{
+	text-align: center;
+	color: whitesmoke;
+	font-size: 30px;
+}
+.normal{
+	text-align: left;
+	color: whitesmoke;
+	width: 300px;
+}
+.f1{
+	margin-left: 550px;
+}
+.f_head{
+	text-align: center;
+	font-size: 50px;
+	color: whitesmoke;
+	margin-right: 80px;
+}
+.sec_head{
+	text-align: left;
+	font-size: 25px;
+	color: whitesmoke;
+}
+#clock{
+  float: right;
+  color: whitesmoke;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+}

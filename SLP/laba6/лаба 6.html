@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>lab 6</title>
+</head>
+<script type='text/javascript'>
+  "use strict";
+  let output;
+  function opened(){
+     window.open("BMW.html");
+  }
+  function closes(){
+      window.close()
+  }
+  function window_1(){
+      output = window.open("about:blank");
+    }
+  function window_2(){
+      output.document.write("Добрый вечер");
+  }
+  function table(){
+      document.write("<table border=1>");
+      document.write("<th>Свойство</th>");
+      document.write("<th>Значение</th>");
+      document.write("<tr><td>1. Вся информацию о браузере пользователя</td><td>"+navigator.userAgent+"</td></tr>");
+      document.write("<tr><td>2. Версия браузера</td><td>"+navigator.appVersion+"</td></tr>");
+      document.write("<tr><td>3. Название браузера</td><td>"+navigator.appName+"</td></tr>");
+      document.write("<tr><td>4. Кодовое название браузера</td><td>"+navigator.appCodeName+"</td></tr>");
+      document.write("<tr><td>5. ОС, которую использует пользователь</td><td>"+navigator.platform+"</td></tr>");
+      document.write("<tr><td>6. Включена ли поддержка Java в браузере</td><td>"+navigator.javaEnabled()+"</td></tr>");
+      document.write("<tr><td>7. Ширина и высота экрана</td><td>ширина экрана: "+screen.width+", высота экрана: "+screen.height+"</td></tr>");
+      document.write("<tr><td>8. Глубина цвета</td><td>"+screen.colorDepth+"</td></tr>");
+      document.write("<tr><td>9. URL, которые были посещены в данном окне браузера</td><td>"+history+"</td></tr>");
+      document.write("<tr><td>10. URL текущего документа</td><td>"+location.href+"</td></tr>");
+      document.write("<tr><td>11. Путь к загруженному документу</td><td>"+location.pathname+"</td></tr>");
+      document.write("<tr><td>12. Имя домена загруженного документа</td><td>"+location.host+"</td></tr>");
+  }
+</script>
+<body>
+<input type="button" value="opened window" onclick="opened()">
+<input type="button" value="closed window" onclick="closes()">
+<input type="button" value="window alert" onclick="window_1()">
+<input type="button" value="alert name" onclick="window_2()">
+<input type="button" value="table" onclick="table()">
+</body>
+</html>

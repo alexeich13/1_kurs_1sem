@@ -1,0 +1,27 @@
+h1{
+	font-family: Monotype Corsiva;
+	color: purple;
+}
+h2{
+	font-family: Monotype Corsiva;
+	color: purple;
+}
+h3{
+	font-family: Monotype Corsiva;
+	color: purple;
+}
+.special {
+	font-family: Times New Roman;
+	color: red;
+	font-size: 18pt;
+}
+.special2 {
+	font-family: Times New Roman;
+	color: yellow;
+	font-size: 20pt;
+}
+.special3 {
+	font-family: Times New Roman;
+	color: green;
+	font-size: 22pt;
+}

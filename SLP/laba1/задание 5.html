@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+		input {
+     background-color: rgb(95, 42, 165);
+     border-radius: 10px;
+     height: 30px;
+     color:rgb(0, 234, 255);
+   }
+	</style>
+<script type='text/javascript'>
+
+	function compare() {
+		A=prompt("Введите первое число", "Число");
+		B=prompt("Введите второе число", "Число");
+		if(A<B)
+			alert("A меньше B");
+		else if(A>B)
+			alert("A больше B");
+		else 
+			alert("A равно B");
+	}
+	function password() {
+		A=prompt("Введите пароль", "Пароль");
+		if(A==1234)
+			alert("Пароль принят");
+		else 
+			alert("Доступ запрещен");
+	}
+	</script>
+</head>
+<body>
+	<input type='button' value='Сравнение' onclick='compare()' />
+	<input type='button' value='Пароль' onclick='password()' />
+</body>
+</html>

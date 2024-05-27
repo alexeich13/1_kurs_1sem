@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+		input {
+     background-color: rgb(95, 42, 165);
+     border-radius: 10px;
+     height: 30px;
+     color:rgb(0, 234, 255);
+   }
+	</style>
+<script type='text/javascript'>
+   function circle()
+{
+ document.write("<table border = '1'>");
+ document.write("</tr>");
+ document.write("<td>" + "Радиус" + "</td>");
+ document.write("<td>" + "Площадь круга" + "</td>");
+ document.write("<td>" + "Длина окружности" + "</td>");
+ let a=Number(prompt("Введите а")), b=Number(prompt("Введите b"));
+ let i=a;
+ do
+ {
+  let k=i.toFixed(2);
+  document.write("</tr>");
+  document.write("<td>" + k + "</td>");
+  document.write("<td>" + Math.round (Math.pow(k,2)* Math.PI) + "</td>");
+  document.write("<td>" + Math.round (2*Math.PI*k) + "</td>");
+  i=i+0.3;
+ }
+ while(i<=b)
+}
+</script>
+</head>
+<body>
+    <input type='button' value='zad 3' onclick='circle()' />
+</body>
+</html>

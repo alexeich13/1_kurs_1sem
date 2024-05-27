@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+		input {
+     background-color: rgb(95, 42, 165);
+     border-radius: 10px;
+     height: 30px;
+     color:rgb(0, 234, 255);
+   }
+	</style>
+<script type='text/javascript'>
+
+	function day() {
+		d=prompt("Введите день недели от 1 до 7");
+		switch(d) {
+			case "1":
+			alert("Понедельник");
+			break;
+			case "2":
+			alert("Вторник");
+			break;
+			case "3":
+			alert("Среда");
+			break;
+			case "4":
+			alert("Четверг");
+			break;
+			case "5":
+			alert("Пятница");
+			break;
+			case "6":
+			alert("Суббота");
+			break;
+			case "7":
+			alert("Воскресенье");
+			break;
+		}
+	}
+		</script>
+</head>
+<body>
+	<input type='button' value='День недели' onclick='day()' />
+</body>
+</html>
